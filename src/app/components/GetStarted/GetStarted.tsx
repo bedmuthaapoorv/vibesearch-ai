@@ -15,6 +15,7 @@ export default function GetStarted() {
             <Utilities.Loader></Utilities.Loader>
         </div>
     )
+    
     const router = useRouter();
     useEffect(() => {
         services.getUserDetails(setUserDetails)
